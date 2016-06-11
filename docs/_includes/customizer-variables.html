@@ -242,10 +242,19 @@
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
+    <label for="input-@box-click-translate">@box-click-translate</label>
+    <input id="input-@box-click-translate" type="text" value="2px" data-var="@box-click-translate" class="form-control"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@box-click-shadow-width">@box-click-shadow-width</label>
+    <input id="input-@box-click-shadow-width" type="text" value="(@box-shadow-width - @box-click-translate)" data-var="@box-click-shadow-width" class="form-control"/>
+  </div>
+  <div class="col-xs-4">
     <label for="input-@component-active-color">@component-active-color</label>
     <input id="input-@component-active-color" type="text" aria-describedby="help-block-@component-active-color" value="#fff" data-var="@component-active-color" class="form-control"/>
     <p id="help-block-@component-active-color" class="help-block">Global color for active items (e.g., navs or dropdowns).</p>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@component-active-bg">@component-active-bg</label>
     <input id="input-@component-active-bg" type="text" aria-describedby="help-block-@component-active-bg" value="@brand-primary" data-var="@component-active-bg" class="form-control"/>
@@ -256,7 +265,6 @@
     <input id="input-@caret-width-base" type="text" aria-describedby="help-block-@caret-width-base" value="4px" data-var="@caret-width-base" class="form-control"/>
     <p id="help-block-@caret-width-base" class="help-block">Width of the <code>border</code> for generating carets that indicate dropdowns.</p>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@caret-width-large">@caret-width-large</label>
     <input id="input-@caret-width-large" type="text" aria-describedby="help-block-@caret-width-large" value="5px" data-var="@caret-width-large" class="form-control"/>
