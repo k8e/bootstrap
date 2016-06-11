@@ -41,7 +41,9 @@
   &.active {
     outline: 0;
     background-image: none;
-    .box-shadow(inset 2px 2px 0px rgba(0,0,0,.2));
+    //.box-shadow(inset 2px 2px 0px rgba(0,0,0,.2));
+    box-shadow: @box-click-shadow-width @box-click-shadow-width 0 #000000;
+    transform: translate(@box-click-translate, @box-click-translate);
   }
 
   &.disabled,

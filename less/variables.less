@@ -14,7 +14,7 @@
 @gray-light:             #A3A5A8; //lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           #B4B8D7; //lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         #647B81; // #6A9CD2; //darken(#428bca, 6.5%); // #337ab7
+@brand-primary:         #3F4A82; //#647B81; // #6A9CD2; //darken(#428bca, 6.5%); // #337ab7
 @brand-success:         #469A07; //#5cb85c;
 @brand-info:            #6A9CD2; //#2F5DAD; //#2E9987 //#5bc0de;
 @brand-warning:         #FCC900; //#F79547 //#f0ad4e;
@@ -112,6 +112,9 @@
 @box-shadow-blur:           0px;
 @box-shadow-color:          #000000;
 @box-shadow:                @box-shadow-width @box-shadow-width @box-shadow-blur @box-shadow-color;
+
+@box-click-translate:       2px;
+@box-click-shadow-width:    (@box-shadow-width - @box-click-translate);
 
 //** Global color for active items (e.g., navs or dropdowns).
 @component-active-color:    #fff;
